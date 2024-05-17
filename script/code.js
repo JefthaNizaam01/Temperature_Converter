@@ -8,6 +8,6 @@ function convertTemperature() {
         result = (temperature - 32) * 5/9;
     }
 
-    let resultElement = document.getElementById('result');
+     resultElement = document.getElementById('result');
 resultElement.textContent = Math.round(result * 100) / 100;
 }
