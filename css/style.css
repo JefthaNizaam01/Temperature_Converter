@@ -13,6 +13,10 @@ body {
     margin-block: 200px;
     background: linear-gradient(to right, #74ebd5, #acb6e5 );
     font-family: Arial, sans-serif;
+
+
+    box-shadow:0 0 50px lightblue;
+
 }
 
 .converter {
@@ -20,12 +24,19 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: #ffffff; 
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+    box-shadow: 0 0 10px white(0, 0, 0, 0.1); 
+
 }
 
 .head{
     font-weight: bold;
+
     text-shadow: 0 0 10px white, 0 0 20px, 0 0 50px white;
+
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white;
 }
 .hot {
     font-size: 16px;
